@@ -2,9 +2,23 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="reboot@localhost" uuid="5b089e62-4c20-467b-8369-0911ed50a9c4">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <database-info product="MySQL" version="5.5.56-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MARIADB" exact-version="5.5.56" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="Django default" uuid="a6e274f5-24b9-4f38-9985-f32790919cfa">
+      <database-info product="MySQL" version="5.5.56-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MARIADB" exact-version="5.5.56" exact-driver-version="5.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
 </project>

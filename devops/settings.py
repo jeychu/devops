@@ -11,10 +11,11 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -37,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dashboard.apps.DashboardConfig'
+    'rest_framework',
+    'idcs.apps.IdcsConfig',
+    'users.apps.UsersConfig',
+    'cabinet.apps.CabinetConfig',
+    'manufacturer.apps.ManufacturerConfig',
+    'servers.apps.ServersConfig'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +61,7 @@ ROOT_URLCONF = 'devops.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, '../../templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,7 +83,7 @@ WSGI_APPLICATION = 'devops.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'reboot',
+        'NAME': 'devops',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': '127.0.0.1',
@@ -126,3 +132,89 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname) %(asctime) %(module)s %(process)d %(thread)d %(message)s',
+            'style': '{',
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s',
+        },
+        'default': {
+            'format': '%(levelname)s %(name)s %(asctime)s %(pathname)s [%(lineno)s] %(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'default'
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': '/root/PycharmProjects/devops/logs/debug.log',
+            'when': 'D',
+            'interval': 1,
+            'formatter': 'default'
+        },
+        'db_backends': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/root/PycharmProjects/devops/logs/db_backends.log',
+            'formatter': 'default'
+        },
+        'request': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/root/PycharmProjects/devops/logs/request.log',
+            'formatter': 'default'
+        },
+        'server': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/root/PycharmProjects/devops/logs/server.log',
+            'formatter': 'default'
+        },
+        'root': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/root/PycharmProjects/devops/logs/root.log',
+            'formatter': 'default'
+        }
+
+    },
+
+    'loggers': {
+        'django': {
+            'level': 'DEBUG',
+            'handlers': ['file'],
+            'propagate': False
+        },
+        'django.request': {
+            'level': 'DEBUG',
+            'handlers': ['request'],
+            'propagate': False,
+        },
+        'django.db.backends': {
+            'level': 'DEBUG',
+            'handlers': ['db_backends'],
+            'propagate': False,
+        },
+        'django.server': {
+            'level': 'DEBUG',
+            'handlers': ['server'],
+            'propagate': False
+        }
+    },
+    'root': {
+        'level': 'DEBUG',
+        'handlers': ['console','root'],
+    }
+}
+

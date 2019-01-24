@@ -1,0 +1,12 @@
+DEBUG urllib3.connectionpool 2019-01-20 08:20:19 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 08:20:19 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "POST /idcs/ HTTP/1.1" 500 76423
+DEBUG urllib3.connectionpool 2019-01-20 09:40:08 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 09:40:08 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "POST /idcs/ HTTP/1.1" 500 76192
+DEBUG urllib3.connectionpool 2019-01-20 09:40:17 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 09:40:17 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "POST /idcs/ HTTP/1.1" 200 0
+DEBUG urllib3.connectionpool 2019-01-20 09:43:28 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 09:43:28 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "POST /idcs/ HTTP/1.1" 200 0
+DEBUG urllib3.connectionpool 2019-01-20 11:11:29 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 11:11:29 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "POST /idcs/ HTTP/1.1" 200 110
+DEBUG urllib3.connectionpool 2019-01-20 11:11:48 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [205] Starting new HTTP connection (1): localhost:8000
+DEBUG urllib3.connectionpool 2019-01-20 11:11:48 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/urllib3/connectionpool.py [393] http://localhost:8000 "GET /idcs/ HTTP/1.1" 200 1438

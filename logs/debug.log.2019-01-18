@@ -1,0 +1,44 @@
+DEBUG reboot 2019-01-18 03:49:09 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 03:49:09 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 03:49:23 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 03:49:23 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 03:53:33 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 03:53:33 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:01:21 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:01:21 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG django.db.backends 2019-01-18 04:01:22 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/django/db/backends/utils.py [90] (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG django.db.backends 2019-01-18 04:01:22 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/django/db/backends/utils.py [90] (0.000) SELECT VERSION(); args=None
+DEBUG django.db.backends 2019-01-18 04:01:22 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/django/db/backends/utils.py [90] (0.001) SHOW FULL TABLES; args=None
+DEBUG django.db.backends 2019-01-18 04:01:22 /root/PycharmProjects/devops/venv/lib/python2.7/site-packages/django/db/backends/utils.py [90] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG reboot 2019-01-18 04:09:52 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:52 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:56 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:56 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:58 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:09:59 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:09:59 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:07 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:07 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:09 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:20 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:20 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:20 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:20 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:21 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:21 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:10:21 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:10:21 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
+DEBUG reboot 2019-01-18 04:13:23 /root/PycharmProjects/devops/dashboard/views.py [98] This is the first log
+WARNING reboot 2019-01-18 04:13:23 /root/PycharmProjects/devops/dashboard/views.py [99] one more log
